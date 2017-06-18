@@ -1,11 +1,29 @@
 "*":
   core:
-    telemetryConsent: "limited"
+    closeDeletedFileTabs: true
+    closeEmptyWindows: false
+    disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
+    ]
+    followSymlinks: false
+    hideGitIgnoredFiles: true
+    ignoredNames: [
+      ".bundle"
+      ".git"
+      "log"
+      "repositories"
+      "tmp"
+      "vendor"
+    ]
+    telemetryConsent: "no"
   editor:
     fontFamily: "FiraCode-Retina"
     invisibles: {}
-  "exception-reporting":
-    userId: "31f922a0-42c1-4faf-a503-2eb7a302911b"
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+  minimap: {}
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
