@@ -22,6 +22,7 @@ brew 'yarn'
 
 cask '1password'
 cask 'atom'
+cask 'crashplan'
 cask 'firefox'
 cask 'google-chrome'
 cask 'slack'
