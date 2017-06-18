@@ -24,6 +24,10 @@
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
   minimap: {}
+  "php-cs-fixer":
+    executablePath: "/usr/local/bin/php-cs-fixer"
+    rules: "@Symfony"
+    showInfoNotifications: true
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
