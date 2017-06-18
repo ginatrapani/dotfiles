@@ -1,0 +1,16 @@
+"*":
+  core:
+    telemetryConsent: "limited"
+  editor:
+    fontFamily: "FiraCode-Retina"
+    invisibles: {}
+  "exception-reporting":
+    userId: "31f922a0-42c1-4faf-a503-2eb7a302911b"
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+    useEslint: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
