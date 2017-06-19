@@ -22,6 +22,7 @@
     fontFamily: "FiraCode-Retina"
     invisibles: {}
     showIndentGuide: true
+    showInvisibles: true
     softWrapAtPreferredLineLength: true
   minimap: {}
   "php-cs-fixer":
