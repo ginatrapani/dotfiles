@@ -30,7 +30,4 @@ then
   time_left='⚡️ '
 fi
 
-printf "\033[1;92m$emoji  $time_left \033[0m"`in \[\033[36m\]`pwd`\[\033[00m\]
-> "
-
-# export PS1="\[\033[42m\]\[\033[31m\]\u@\h:\w\\[\033[00m\]\$ "
+printf "\033[1;92m$emoji  $time_left \033[0m"`in \[\033[36m\]`pwd`\[\033[00m\]\n$ "
