@@ -1,6 +1,6 @@
 # ginatrapani / dotfiles
 
-Based on & many thanks to [holman/dotfiles](https://github.com/holman/dotfiles/)
+Based on & many thanks to [holman/dotfiles](https://github.com/holman/dotfiles)
 
 ## components
 
@@ -36,6 +36,13 @@ Everything is configured and tweaked within `~/.dotfiles`.
 
 The main file you'll want to change right off the bat is `zsh/zshrc.symlink`,
 which sets up a few paths that'll be different on your particular machine.
+
+## atom packages
+
+To install Atom packages, run `atom-package-install`. If you install new ones
+inside Atom, to back them up to your dotfiles, run `atom-package-backup`.
+
+## freshen up
 
 `dot` is a simple script that installs some dependencies, sets sane macOS
 defaults, and so on. Tweak this script, and occasionally run `dot` from
