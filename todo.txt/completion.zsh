@@ -88,7 +88,8 @@ _todo()
 complete -F _todo t
 
 # zsh
-compctl -f -K _todo t
+# this works for todo.sh but not t - argh! use bash instead
+# compctl -f -K _todo t
 
 # If you define an alias (e.g. "t") to todo.sh, you need to explicitly enable
 # completion for it, too:
