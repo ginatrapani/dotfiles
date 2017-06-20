@@ -24,7 +24,10 @@
     showIndentGuide: true
     showInvisibles: true
     softWrapAtPreferredLineLength: true
-  minimap: {}
+  minimap:
+    absoluteMode: true
+    displayCodeHighlights: false
+    displayMinimapOnLeft: true
   "php-cs-fixer":
     executablePath: "/usr/local/bin/php-cs-fixer"
     rules: "@Symfony"
