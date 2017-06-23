@@ -25,6 +25,8 @@
     showInvisibles: true
     softWrapAtPreferredLineLength: true
     tabLength: 4
+  "linter-ui-default":
+    panelHeight: 69
   minimap:
     absoluteMode: true
     displayCodeHighlights: false
