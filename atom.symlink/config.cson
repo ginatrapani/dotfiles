@@ -6,6 +6,10 @@
       "background-tips"
       "exception-reporting"
       "metrics"
+      "atom-beautify"
+      "php-cs-fixer"
+      "prettier-atom"
+      "minimap"
     ]
     followSymlinks: false
     hideGitIgnoredFiles: true
@@ -27,6 +31,7 @@
     tabLength: 4
   "linter-ui-default":
     panelHeight: 69
+    showPanel: true
   minimap:
     absoluteMode: true
     displayCodeHighlights: false
