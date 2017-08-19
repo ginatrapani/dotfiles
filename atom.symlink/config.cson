@@ -29,9 +29,15 @@
     showInvisibles: true
     softWrapAtPreferredLineLength: true
     tabLength: 4
+  "linter-phpcs":
+    autoConfigSearch: false
+    autoExecutableSearch: false
+    codeStandardOrConfigFile: "WordPress-VIP"
+    executablePath: "/Users/ginatrapani/.composer/vendor/bin/phpcs"
+    showSource: false
+    tabWidth: 4
   "linter-ui-default":
     panelHeight: 69
-    showPanel: true
   minimap:
     absoluteMode: true
     displayCodeHighlights: false
