@@ -1,12 +1,14 @@
-atom-beautify@0.30.3
+atom-beautify@0.30.5
 busy-signal@1.4.3
-docblockr@0.10.5
-intentions@1.1.2
+docblockr@0.11.0
+emmet@2.4.3
+intentions@1.1.5
 linter@2.2.0
 linter-eslint@8.2.1
-linter-ui-default@1.6.2
-minimap@4.28.2
+linter-phpcs@1.6.7
+linter-ui-default@1.6.7
+minimap@4.29.6
 php-cs-fixer@4.1.0
-prettier-atom@0.34.0
+prettier-atom@0.37.0
 react@0.16.2
 
