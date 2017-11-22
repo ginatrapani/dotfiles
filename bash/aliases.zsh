@@ -5,4 +5,4 @@ alias t='todo.sh -a -t '
 alias b='exec bash -l'
 
 # shortcut to #goals.py
-alias goals='cd ~/Documents/mydata/code/hashtag-goals/;python3 \#goals.py --todo ~/Dropbox/notesy/todo/todo.txt --goals ~/Dropbox/notesy/todo/#goals.txt  --done ~/Dropbox/notesy/todo/done.txt'
+alias goals='cd ~/Documents/mydata/code/hashtag-goals/;python3 \#goals.py --todo ~/Dropbox/notes/todo/todo.txt --goals ~/Dropbox/notes/todo/#goals.txt  --done ~/Dropbox/notes/todo/done.txt'
