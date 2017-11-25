@@ -8,4 +8,4 @@ alias b='exec bash -l'
 alias goals='cd ~/Documents/mydata/code/hashtag-goals/;python3 \#goals.py --todo ~/Dropbox/notes/todo/todo.txt --goals ~/Dropbox/notes/todo/#goals.txt  --done ~/Dropbox/notes/todo/done.txt'
 
 # shortcut to pipe weekly review to Day One
-alias goals2dayone='cat <(echo "# Week `date +%V`: Weekly Review + Goal progress report")  ~/Dropbox/notes/todo/goal-report-header.txt <(goals) | dayone2 new'
+alias goals2dayone='cat <(echo "# Week `date +%V` of `date +%Y`: Weekly Review + Goal progress report")  ~/Dropbox/notes/todo/goal-report-header.txt <(goals) | dayone2 new'
